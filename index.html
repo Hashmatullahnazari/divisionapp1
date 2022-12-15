@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>HTML, CSS and JavaScript demo</title>
+</head>
+<body>
+<!-- Start your code here -->
+  <div class="container">
+<table>
+  <tr>
+    <th>Input</th>
+    <th>Output</th>
+  </tr>
+  <tr>
+    <td>
+       <div class="col-25">
+      <input type="number" id="num1" placeholder="Enter first number">
+      </div>
+       <div class="col-75">
+      <input type="number" id="num2" placeholder="Enter second number">
+          </div>
+      <button onclick="divideNumbers()">Divide</button>
+    </td>
+    <td>
+      <p>Result: <span id="result"></span></p>
+      <p>First number: <span id="input1"></span></p>
+      <p>Second number: <span id="input2"></span></p>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2">
+      <p>Division steps:</p>
+      <table>
+        <tr>
+          <th>Step</th>
+          <th>First number</th>
+          <th>Second number</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td id="first1"></td>
+          <td id="second1"></td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td id="first2"></td>
+          <td id="second2"></td>
+        </tr>
+        <!-- More rows for additional steps -->
+      </table>
+    </td>
+  </tr>
+</table>
+  </div>
+
+<!-- End your code here -->
+</body>
+</html>
